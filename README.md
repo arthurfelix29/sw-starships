@@ -20,6 +20,4 @@ It's a simple Console Application was built using:
 - AutoMapper;
 - Unit Test with Moq and FluentAssertions covering more than 90% of the application.
 
-
-
-> Tip: Set as StartUp Project: StarWarsShips.UI.Prompt
+> **Set as StartUp Project:** StarWarsShips.UI.Prompt
