@@ -9,7 +9,7 @@ The output should be a collection of all the star ships and the total amount of 
 User input a distance in mega lights (MGLT). Example: 1000000
 The application should return a star ships collection with the total amount of stops calculated.
 
-It's a simple software was built using:
+It's a simple Console Application was built using:
 
 - Visual Studio 2019
 - C# Language with Asynchronous Programming in .NET Core 3.0;
