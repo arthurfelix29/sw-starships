@@ -6,7 +6,7 @@ The application will take as input a distance in mega lights (MGLT).
 The output should be a collection of all the star ships and the total amount of stops required to make the distance between the planets.
 
 ## Documentation
-User input a distance in mega lights (MGLT). Example: 1000000
+User input a distance in mega lights (MGLT). Example: 1000000.
 The application should return a star ships collection with the total amount of stops calculated.
 
 It's a simple Console Application was built using:
