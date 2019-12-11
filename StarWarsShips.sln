@@ -1,0 +1,91 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{AB749678-D27C-47F9-86C1-4ADA1FFD17DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{D8990236-0416-419C-B30D-C04D0E7EDD98}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{B6492754-749B-4FAB-AF9D-A6C04FC774C8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{0942A733-9B1A-441D-ABFA-F9D1559A3916}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - Data", "4.1 - Data", "{562E624F-0AD3-4B6D-8008-101DFC3F5734}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 - CrossCutting", "4.2 - CrossCutting", "{336C4636-4198-47EC-B381-C9DF79762EB9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StarWarsShips.Domain.Core", "StarWarsShips.Domain.Core\StarWarsShips.Domain.Core.csproj", "{86247906-1D6F-4881-B70D-D6A8042709CA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StarWarsShips.Domain", "StarWarsShips.Domain\StarWarsShips.Domain.csproj", "{24E1C77D-B23D-4516-AD0B-BAD2992E29DA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StarWarsShips.Application", "StarWarsShips.Application\StarWarsShips.Application.csproj", "{755004B6-2713-4D80-B299-0F98A85D0E26}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StarWarsShips.UI.Prompt", "StarWarsShips.UI.Prompt\StarWarsShips.UI.Prompt.csproj", "{251BD162-D04C-4A32-BA27-9A3AF06564BF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StarWarsShips.Infra.CrossCutting.IoC", "StarWarsShips.Infra.CrossCutting.IoC\StarWarsShips.Infra.CrossCutting.IoC.csproj", "{12FA72FA-B92D-4A48-934B-59329BC5EBF5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StarWarsShips.Infra.Data", "StarWarsShips.Infra.Data\StarWarsShips.Infra.Data.csproj", "{84C32F06-2455-4AFB-93FD-93464E9A3D4A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StarWarsShips.Application.Test", "StarWarsShips.Application.Test\StarWarsShips.Application.Test.csproj", "{516916EF-53FA-433B-8B83-9C92FDFA2B65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarWarsShips.Domain.Test", "StarWarsShips.Domain.Test\StarWarsShips.Domain.Test.csproj", "{DEA6FFEF-BE8A-4D2E-ACAF-46C58AD2AA1E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86247906-1D6F-4881-B70D-D6A8042709CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86247906-1D6F-4881-B70D-D6A8042709CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86247906-1D6F-4881-B70D-D6A8042709CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86247906-1D6F-4881-B70D-D6A8042709CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24E1C77D-B23D-4516-AD0B-BAD2992E29DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24E1C77D-B23D-4516-AD0B-BAD2992E29DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24E1C77D-B23D-4516-AD0B-BAD2992E29DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24E1C77D-B23D-4516-AD0B-BAD2992E29DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{755004B6-2713-4D80-B299-0F98A85D0E26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{755004B6-2713-4D80-B299-0F98A85D0E26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{755004B6-2713-4D80-B299-0F98A85D0E26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{755004B6-2713-4D80-B299-0F98A85D0E26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{251BD162-D04C-4A32-BA27-9A3AF06564BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{251BD162-D04C-4A32-BA27-9A3AF06564BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{251BD162-D04C-4A32-BA27-9A3AF06564BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{251BD162-D04C-4A32-BA27-9A3AF06564BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12FA72FA-B92D-4A48-934B-59329BC5EBF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12FA72FA-B92D-4A48-934B-59329BC5EBF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12FA72FA-B92D-4A48-934B-59329BC5EBF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12FA72FA-B92D-4A48-934B-59329BC5EBF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84C32F06-2455-4AFB-93FD-93464E9A3D4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84C32F06-2455-4AFB-93FD-93464E9A3D4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84C32F06-2455-4AFB-93FD-93464E9A3D4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84C32F06-2455-4AFB-93FD-93464E9A3D4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{516916EF-53FA-433B-8B83-9C92FDFA2B65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{516916EF-53FA-433B-8B83-9C92FDFA2B65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{516916EF-53FA-433B-8B83-9C92FDFA2B65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{516916EF-53FA-433B-8B83-9C92FDFA2B65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEA6FFEF-BE8A-4D2E-ACAF-46C58AD2AA1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEA6FFEF-BE8A-4D2E-ACAF-46C58AD2AA1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEA6FFEF-BE8A-4D2E-ACAF-46C58AD2AA1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEA6FFEF-BE8A-4D2E-ACAF-46C58AD2AA1E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{562E624F-0AD3-4B6D-8008-101DFC3F5734} = {0942A733-9B1A-441D-ABFA-F9D1559A3916}
+		{336C4636-4198-47EC-B381-C9DF79762EB9} = {0942A733-9B1A-441D-ABFA-F9D1559A3916}
+		{86247906-1D6F-4881-B70D-D6A8042709CA} = {B6492754-749B-4FAB-AF9D-A6C04FC774C8}
+		{24E1C77D-B23D-4516-AD0B-BAD2992E29DA} = {B6492754-749B-4FAB-AF9D-A6C04FC774C8}
+		{755004B6-2713-4D80-B299-0F98A85D0E26} = {D8990236-0416-419C-B30D-C04D0E7EDD98}
+		{251BD162-D04C-4A32-BA27-9A3AF06564BF} = {AB749678-D27C-47F9-86C1-4ADA1FFD17DA}
+		{12FA72FA-B92D-4A48-934B-59329BC5EBF5} = {336C4636-4198-47EC-B381-C9DF79762EB9}
+		{84C32F06-2455-4AFB-93FD-93464E9A3D4A} = {562E624F-0AD3-4B6D-8008-101DFC3F5734}
+		{516916EF-53FA-433B-8B83-9C92FDFA2B65} = {D8990236-0416-419C-B30D-C04D0E7EDD98}
+		{DEA6FFEF-BE8A-4D2E-ACAF-46C58AD2AA1E} = {B6492754-749B-4FAB-AF9D-A6C04FC774C8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {31C04728-2733-42CD-894C-59F3C7716137}
+	EndGlobalSection
+EndGlobal
