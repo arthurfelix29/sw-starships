@@ -11,6 +11,7 @@ The application should return a star ships collection with the total amount of s
 
 It's a simple software was built using:
 
+- Visual Studio 2019
 - C# Language with Asynchronous Programming in .NET Core 3.0;
 - DDD using SOLID, KISS, DRY and YAGNI;
 - Factory Method as creational pattern; 
