@@ -16,4 +16,5 @@ It's a simple software was built using:
 - Factory Method as creational pattern; 
 - Chain of Responsibility as behavioral pattern;
 - Repository Pattern;
+- AutoMapper;
 - Unit Test with Moq and FluentAssertions covering more than 90% of the application.
